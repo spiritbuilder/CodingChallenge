@@ -1,0 +1,376 @@
+.Logo {
+  height: 65px;
+  border-radius: 50px;
+}
+/* .holdLandPage {
+  height: auto;
+  width: 100%;
+  background-image: url("../../Assets/payments-cuate.png");
+} */
+
+/* .holdLandPage2 {
+  height: auto;
+  width: 100%;
+  background-image: url("../../Assets/payments-cuate.png");
+} */
+.colum {
+  padding: 0;
+}
+
+.holdHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+.LogoText {
+  font-size: 17px;
+  color: #057abe;
+  cursor: pointer;
+}
+
+.LogoText:hover {
+  text-decoration: underline;
+}
+
+.holdContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.holdBgImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 30px;
+}
+.divContent {
+  border-radius: 15px;
+  width: 436px;
+  min-height: 600px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #9a9a9a;
+}
+.requst {
+  font-size: 32px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.company {
+  color: #55586f;
+  font-size: 15px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  background-color: #f2f6fc;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 0.032em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-family: arial;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.company2 {
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #8c8fa3;
+  border-radius: 10px;
+  padding: 0.8em 0.7rem;
+  color: #55586f;
+  transition: 0.1s ease-out;
+  width: 100%;
+}
+
+.Conti {
+  color: #fff;
+  background-color: #057abe;
+  border-color: #057abe;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.holdSecure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+}
+
+.holdSecure2 {
+  width: fit-content;
+  color: #ff5f00;
+  background-color: #fff5f1;
+  padding: 1px 10px;
+  border-radius: 5px;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 80% !important;
+}
+
+.modal-content {
+  border-radius: 1rem !important;
+  height: auto;
+  background-color: white !important;
+  color: black !important;
+  overflow: hidden;
+  background-image: linear-gradient(125deg, #ff5f0017, #057abe78);
+}
+
+.holdModal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.holdModalImage {
+  background-color: white;
+  width: 115px;
+  border-radius: 50%;
+  margin-top: -35px;
+  margin-left: -27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115px;
+}
+.modalImage {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.likeAccount {
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+}
+.likeAccount p {
+  font-size: 27px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.LandUL {
+  padding-left: 45px;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.clickCon {
+  width: 80%;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.firstMClose {
+  height: fit-content;
+  padding: 10px;
+  border-radius: 50px;
+}
+.firstMClose:hover {
+  box-shadow: 5px 5px 20px #aeaeae, -5px 5px 20px #aeaeae;
+}
+
+.oldModal2 {
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.LandModal {
+  display: flex;
+  border: 2px solid #b8b8b8;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.kokoSearch {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  color: #313131;
+  width: 100%;
+  outline: none;
+}
+
+.accountType {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.activeAcc {
+  /* width: 50%;
+  border-bottom: 1.4px solid white !important;
+  text-align: center; */
+  color: #59a2d8 !important;
+}
+.Beforeactive {
+  width: 50%;
+  text-align: center;
+  border-bottom: 1.4px solid transparent;
+}
+
+.listB {
+  background-color: #7ba7ce61;
+  padding: 7px;
+  border-bottom: 1px solid #6a7abc;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.listB:hover {
+  background-color: #aec4d861;
+}
+
+.listBA {
+  border-radius: 5px 5px 0 0;
+}
+
+.freecur {
+  cursor: pointer;
+}
+
+.optionLogin {
+  height: 385px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  padding: 30px;
+  border-radius: 40px;
+  left: 0%;
+  text-align: center;
+}
+
+.optionLoginIcon {
+  background-color: rgb(0, 64, 133);
+  padding: 10px 11px;
+  border-radius: 50px;
+  color: white;
+}
+
+.internetBanking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.internetBanking:hover {
+  background-color: #ededed;
+}
+
+.bankModalIcon {
+  text-align: right;
+  padding: 0px;
+  margin: 0px 0px -25px;
+  font-size: 25px;
+}
+
+.cur {
+  cursor: pointer;
+}
+
+.showBank {
+  display: block;
+}
+/* .NotShowBank {
+  display: none;
+} */
+.NotShowBank2 {
+  display: none;
+}
+
+.romoveColor {
+  color: black;
+  text-decoration: none;
+}
+.romoveColor:hover {
+  color: black;
+}
+
+.modal-content2 {
+  border-radius: 0.5rem !important;
+  background-color: #ffffff !important;
+  color: black !important;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.loginTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px;
+}
+
+.overMe {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.LoginType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.personalType {
+  background-color: #eaeaea;
+  padding: 0px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.LoginButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #de4a09 !important;
+  border-color: #de4a09 !important;
+}
+
+.LoginButton:focus {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #de4a09 !important;
+  border-color: #de4a09 !important;
+  box-shadow: 0 0 0 0.25rem #de490957 !important;
+}
